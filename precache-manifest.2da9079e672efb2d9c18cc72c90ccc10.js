@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b10634ca40e09f745d11a157c3d2e046",
+    "revision": "c2cf828f1f1f1125c5733437d1b6071d",
     "url": "/culturalconcerts/index.html"
   },
   {
-    "revision": "3e4e58925ecaf4c2ce96",
-    "url": "/culturalconcerts/static/css/main.75e01754.chunk.css"
+    "revision": "8af33aafb2f2372636eb",
+    "url": "/culturalconcerts/static/css/main.e78c341b.chunk.css"
   },
   {
-    "revision": "5e0c8d9b746145a9db79",
-    "url": "/culturalconcerts/static/js/2.6dbb0287.chunk.js"
+    "revision": "6732e58bae9ac58c04b1",
+    "url": "/culturalconcerts/static/js/2.7e1e6afb.chunk.js"
   },
   {
-    "revision": "3e4e58925ecaf4c2ce96",
-    "url": "/culturalconcerts/static/js/main.11c29d91.chunk.js"
+    "revision": "8af33aafb2f2372636eb",
+    "url": "/culturalconcerts/static/js/main.757b6a7d.chunk.js"
   },
   {
     "revision": "1a51213fc2f0920e9d57",
@@ -420,10 +420,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/culturalconcerts/static/media/Alfazz.ec7b2617.png"
   },
   {
-    "revision": "d89863d3bff18de7fef3dfd75343edb8",
-    "url": "/culturalconcerts/static/media/Aram.d89863d3.png"
-  },
-  {
     "revision": "d03eae605463dc201d8b1d9cd9680c3d",
     "url": "/culturalconcerts/static/media/Ari.d03eae60.png"
   },
@@ -504,6 +500,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/culturalconcerts/static/media/LindaShea.dc043d3e.png"
   },
   {
+    "revision": "30dbb78561a5ed8964115d0e09ec85b9",
+    "url": "/culturalconcerts/static/media/Logo.30dbb785.png"
+  },
+  {
+    "revision": "190ad01c56d8187bc8e7214b07f5ba34",
+    "url": "/culturalconcerts/static/media/Merriweather-Regular.190ad01c.ttf"
+  },
+  {
+    "revision": "e595b84867a810c05e58941014f4e755",
+    "url": "/culturalconcerts/static/media/Merriweather-Regular.e595b848.woff2"
+  },
+  {
+    "revision": "f0c879013f2f0c91e02ef7d0afd8b5d8",
+    "url": "/culturalconcerts/static/media/Merriweather-Regular.f0c87901.woff"
+  },
+  {
     "revision": "59a69d9837ab9a6214f8391a230d1e5d",
     "url": "/culturalconcerts/static/media/Michelle.59a69d98.png"
   },
@@ -526,6 +538,42 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "38eb2e7b518bd41d42f1c94cb783cd55",
     "url": "/culturalconcerts/static/media/Rebecca.38eb2e7b.png"
+  },
+  {
+    "revision": "388938f6332e5e07466341f141effc6c",
+    "url": "/culturalconcerts/static/media/Roboto-Bold.388938f6.woff"
+  },
+  {
+    "revision": "afa7a91dadd77b23634a0fdf18c148f3",
+    "url": "/culturalconcerts/static/media/Roboto-Bold.afa7a91d.ttf"
+  },
+  {
+    "revision": "b52fac2bb93c5858f3f2675e4b52e1de",
+    "url": "/culturalconcerts/static/media/Roboto-Bold.b52fac2b.woff2"
+  },
+  {
+    "revision": "c8405cfa0df9fb2e47ef1c516cef59a8",
+    "url": "/culturalconcerts/static/media/Roboto-Light.c8405cfa.woff"
+  },
+  {
+    "revision": "d26871e8149b5759f814fd3c7a4f784b",
+    "url": "/culturalconcerts/static/media/Roboto-Light.d26871e8.woff2"
+  },
+  {
+    "revision": "fc84e998bc29b297ea20321e4c90b6ed",
+    "url": "/culturalconcerts/static/media/Roboto-Light.fc84e998.ttf"
+  },
+  {
+    "revision": "7b225d4d9324ee54ce6d9ec50e339668",
+    "url": "/culturalconcerts/static/media/Roboto-Medium.7b225d4d.woff"
+  },
+  {
+    "revision": "90d1676003d9c28c04994c18bfd8b558",
+    "url": "/culturalconcerts/static/media/Roboto-Medium.90d16760.woff2"
+  },
+  {
+    "revision": "99fc0816a09395454061301fefa42bf1",
+    "url": "/culturalconcerts/static/media/Roboto-Medium.99fc0816.ttf"
   },
   {
     "revision": "2919d284e5a4463d3226bbbf0a4484d9",
