@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9305ef76fa985ff7a4fad7a90305fc3",
+    "revision": "f9cb90b97485e325c0ef0303794d7e00",
     "url": "/culturalconcerts/index.html"
   },
   {
-    "revision": "8e97a7d080cc814e1965",
+    "revision": "09304e2ea76a1af7b2b3",
     "url": "/culturalconcerts/static/css/main.e78c341b.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/culturalconcerts/static/js/2.5ee7f666.chunk.js"
   },
   {
-    "revision": "8e97a7d080cc814e1965",
-    "url": "/culturalconcerts/static/js/main.dda9ad02.chunk.js"
+    "revision": "09304e2ea76a1af7b2b3",
+    "url": "/culturalconcerts/static/js/main.c10f26f0.chunk.js"
   },
   {
     "revision": "1a51213fc2f0920e9d57",
