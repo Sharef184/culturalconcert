@@ -4,7 +4,6 @@ import ArtistsCard from './ArtistsCard.js'
 import Kinan from './images/Kinan.png'
 import Rebecca from './images/Rebecca.png'
 import Debashish from './images/Debashish.png'
-import Cora from './images/Cora.png'
 import Carpe from './images/Carpe.png'
 import Michelle from './images/Michelle.png'
 import Colorado from './images/Colorado.png'
@@ -42,9 +41,9 @@ class ArtistsCardGroup extends React.Component {
         },
         {
           id: 4,
-          img: Cora,
-          name: "Cora Harnish",
-          description: "Cellist, Cora Harnish, has been involved in the teaching and performing of Early Music since 1989."
+          img: TheSwingCrew,
+          name: "The Swing Crew",
+          description: "Fun is the bottom line with this interactive, acoustic band."
         },
         {
           id: 5,
@@ -111,12 +110,6 @@ class ArtistsCardGroup extends React.Component {
           img: Jeremy,
           name: "Jeremy Chapman",
           description: "Flute soloist grew up in Lebanon where he returned in his 20s to teach and play music."
-        },
-        {
-          id: 16,
-          img: TheSwingCrew,
-          name: "The Swing Crew",
-          description: "Fun is the bottom line with this interactive, acoustic band."
         }
       ]
     }
@@ -124,8 +117,8 @@ class ArtistsCardGroup extends React.Component {
   render () {
     let artistsCards = this.state.artists.map(artists => {
       return (
-        <Col sm="6" md="4" lg="3">
-          <ArtistsCard key={artists.id} artists={artists} />
+        <Col sm="6" lg="4" style={{ padding: '10px' }} key={artists.id}>
+          <ArtistsCard artists={artists} />
         </Col>
       )
     })

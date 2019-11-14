@@ -1,7 +1,8 @@
 import React from 'react';
-import '../App.css';
-import NavBar from './NavBar.js'
-import Footer from './Footer.js'
+import '../css/App.css';
+import '../css/Fonts.css';
+import NavBar from './NavBar/NavBar.js'
+import Footer from './Footer/Footer.js'
 import Home from './Home/Home.js'
 import AboutUs from './AboutUs/AboutUs.js'
 import ArtistsCardGroup from './Artists/ArtistsCardGroup.js'
@@ -9,7 +10,7 @@ import ArchiveCardGroup from './Archive/ArchiveCardGroup.js'
 import Images from './Gallery/Images/Images.js'
 import VideosCardGroup from './Gallery/Videos/VideosCardGroup.js'
 import Contacts from './Contacts/Contacts.js'
-import Error from './Error.js'
+import Error from './Error/Error.js'
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
 const App = () => {

@@ -8,7 +8,7 @@ class SectionB extends React.Component {
       <section className='section-ab'>
         <Container className="first-section">
           <Row className="section-a-content">
-            <h1 className='section-b-headline w-100'>{sectionBh1}​​​</h1>
+            <h1 className='section-headline section-b-color w-100'>{sectionBh1}​​​</h1>
           </Row>
 
           <Row>

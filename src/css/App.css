@@ -1,36 +1,15 @@
-@import url(http://allfont.net/allfont.css?fonts=windsor);
-
 body {
-  font-family: 'Windsor', arial;
-}
-
-.test1 {
-  padding: 56.25% 0 0 0;
-  position: relative;
-  border-radius: 5px;
-  margin: 10px auto;
-}
-
-.test2 {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
 }
 
 .logo {
-  font-family: cursive;
+  margin: 0 10px;
+  height: 50px;
 }
 
-.m {
-  color: #f37368 !important;
-  font-weight: bold;
-}
-
-.p {
-  color: #4fceff !important;
+.pmmp {
+  color: #ff9898 !important;
   font-weight: bold;
 }
 
@@ -68,15 +47,15 @@ body {
    background-color: #eef5fb;
 }
 
-.bg {
-   background: url("./images/1.png") no-repeat center;
+.bg-img {
+   background: url("../components/Home/images/1.png") no-repeat center;
    background-size: cover;
    background-position: bottom;
    width: 100%;
    position: relative;
 }
 
-.bg::after {
+.bg-img::after {
   content: " ";
   background: #000;
   width: 100%;
@@ -87,10 +66,6 @@ body {
   top: 0;
 }
 
-.brands {
-  font-size: 25px;
-}
-
 .jumbotron {
    background-color: inherit;
    text-align: center;
@@ -98,6 +73,8 @@ body {
 }
 
 .headline {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
    font-size: 2.5rem;
    z-index: 5;
    position: relative;
@@ -105,70 +82,75 @@ body {
 }
 
 .subheadline {
-  font: italic 22px 'Windsor', arial;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
   margin: 20px auto;
   color: #fff;
 }
 
 .section-headline {
-  font: italic 2rem 'Windsor', arial;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
   color: #dc3545;
 }
 
-.section-a-headline {
-  font: italic 2rem 'Windsor', arial;
-  color: #f37368;
-}
-
-.double-border-left {
-    border-left: 8px double #dc3545;
-    padding: 30px;
-    margin: 40px 0px;
+.section-a-color {
+  color: #f37368 !important;
 }
 
 .double-border-left-a {
     border-left: 8px double #f37368;
-    padding: 30px;
-    margin: 40px 0px;
+    padding: 25px;
+    margin: 30px 0px;
 }
 
 .bg-color-a {
   background-color: #f37368;
 }
 
-.section-b-headline {
-  font: italic 2rem 'Windsor', arial;
-  color: #3c7563;
+.section-b-color {
+  color: #3c7563 !important;
 }
 
 .double-border-left-b {
     border-left: 8px double #3c7563;
-    padding: 30px;
-    margin: 40px 0px;
+    padding: 25px;
+    margin: 30px 0px;
 }
 
 .bg-color-b {
   background-color: #3c7563;
 }
 
-.content {
-  color: #171717;
-  font: 15px 'Windsor', arial;
+.card-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  color: #dc3545;
 }
 
-.description-box {
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #656565;
+}
+
+.content {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #656565;
+}
+
+.home-header-box {
   min-height: 400px;
   max-width: 400px;
   margin: 0 auto;
   position: relative;
   z-index: 1;
-}
-
-.description-box-border {
-  width: 100%;
-  overflow: hidden;
-  padding: 20px;
-  color: #acb8b9;
 }
 
 .scroll-down-arrow {
@@ -200,6 +182,10 @@ body {
   margin: 15px auto;
 }
 
+main {
+  margin: -30px auto;
+}
+
 .bg-color {
   background-color: #eef5fb;
 }
@@ -215,10 +201,6 @@ body {
   text-align: center;
 }
 
-main {
-  margin: -30px auto;
-}
-
 .section-a {
   padding: 100px 15px;
 }
@@ -227,10 +209,24 @@ main {
   padding: 100px 15px;
 }
 
+.vimeo-video-container {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.vimeo-video {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  padding: 5px;
+}
+
 .partners {
   padding: 20px;
-  font: italic 1.5rem 'Windsor', arial;
-  color: #7b7b7b;
 }
 
 .carousel-imgs{
@@ -240,31 +236,35 @@ main {
   max-height: 370px;
 }
 
-.center-m-img {
+.about-us-section-a-image {
   max-width: 50%;
   margin: 30px auto;
   display: block;
 }
 
-.contacts-section {
-  padding: 15px;
+.archive-double-border-left {
+  border-left: 8px double #f37368;
+  padding: 15px 20px;
+  margin: 15px 0px;
 }
 
 #contacts-table {
   color: #0c0e46;
-  margin: 80px auto;
+  margin: 50px auto;
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   color: #79b5ff;
 }
 
-#artists-section-headline {
-  padding: 20px;
+.social-media {
+  margin: 10px;
+  font-size: 40px;
+  color: #516479;
 }
 
 .error-page {
-  background: url(./images/not-exist.png) no-repeat center;
+  background: url(../components/Error/images/not-exist.png) no-repeat center;
   background-size: cover;
   width: 100%;
   min-height: 90vh;
@@ -297,4 +297,5 @@ footer p {
 
 #heart, #sharif-khlief {
   color: #dc3545;
+  font-weight: bold;
 }

@@ -3,13 +3,12 @@ import { Card } from 'react-bootstrap'
 
 class VideosCard extends React.Component {
   render () {
-    let { img, name, description } = this.props.videos;
+    let { name, src } = this.props.videos;
     return (
-        <Card style={{ width: '90%', height: '90%', margin: '0 auto' }}>
-          <Card.Img variant="top" src={img} alt={name} style={{ height: '50%' }}/>
+        <Card style={{ width: '100%', height: '250px'}}>
           <Card.Body>
-            <Card.Title>{name}</Card.Title>
-            <Card.Text>{description}</Card.Text>
+            <Card.Title className='text-center'>{name}</Card.Title>
+            <iframe style={{ width: '100%', height: '90%'}} src={src} title={name} frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
           </Card.Body>
         </Card>
     )

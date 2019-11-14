@@ -1,22 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import VideosCard from './VideosCard.js'
-import Kinan from './videos/Kinan.png'
-import Rebecca from './videos/Rebecca.png'
-import Debashish from './videos/Debashish.png'
-import Cora from './videos/Cora.png'
-import Carpe from './videos/Carpe.png'
-import Michelle from './videos/Michelle.png'
-import Colorado from './videos/Colorado.png'
-import Stephen from './videos/Stephen.png'
-import AriAndAram from './videos/AriAndAram.png'
-import Dennis from './videos/Dennis.png'
-import Bertie from './videos/Bertie.png'
-import Daniel from './videos/Daniel.png'
-import Alfazz from './videos/Alfazz.png'
-import Organism from './videos/Organism.png'
-import Jeremy from './videos/Jeremy.png'
-import TheSwingCrew from './videos/TheSwingCrew.png'
+
 
 class VideosCardGroup extends React.Component {
 
@@ -24,99 +9,63 @@ class VideosCardGroup extends React.Component {
       videos: [
         {
           id: 1,
-          img: Kinan,
           name: "Kinan Azmeh",
-          description: "Clarinetist and composer."
+          src: "https://www.youtube.com/embed/LXia6PmeExo"
         },
         {
           id: 2,
-          img: Rebecca,
-          name: "Rebecca Phillips",
-          description: "Guest-conductor, clinician, and performer throughout North America, Europe, and Asia. "
+          name: "Daniel Zappi",
+          src: "https://www.youtube.com/embed/jGAcfYZvuBc"
         },
         {
           id: 3,
-          img: Debashish,
           name: "Debashish Chaudhuri",
-          description: "Musical experience and expression is a unique blend born in Calcutta."
+          src: "https://www.youtube.com/embed/J1VtocRNP_o"
         },
         {
           id: 4,
-          img: Cora,
-          name: "Cora Harnish",
-          description: "Cellist, Cora Harnish, has been involved in the teaching and performing of Early Music since 1989."
+          name: "Ari & Aram Mzori",
+          src: "https://www.youtube.com/embed/41qmX0wr-CE"
         },
         {
           id: 5,
-          img: Carpe,
-          name: "Carpe Diem",
-          description: "String Quartet."
+          name: "Organism - Daniel Bulatkin",
+          src: "https://www.youtube.com/embed/abC0RZUy8xc"
         },
         {
           id: 6,
-          img: Michelle,
-          name: "Michelle Orman",
-          description: "In addition to managing the CYSO, Michelle is a professional musician."
+          name: "The Swing Crew",
+          src: "https://www.youtube.com/embed/xvgjF3WjdU4"
         },
         {
           id: 7,
-          img: Colorado,
-          name: "COLORADO YOUTH SYMPHONY",
-          description: "The CYSO was founded in 1984 to provide orchestral experience for school-age musicians."
+          name: "Carpe Diem String Quartet",
+          src: "https://www.youtube.com/embed/zyv-18J8IWo"
         },
         {
           id: 8,
-          img: Stephen,
-          name: "Stephen Dombrowski",
-          description: "Principal Tubist of the Colorado Symphony Orchestra."
+          name: "Michelle Orman",
+          src: "https://www.youtube.com/embed/uS6D_9FNXps"
         },
         {
           id: 9,
-          img: AriAndAram,
-          name: "Ari & Aram Mzori",
-          description: "Violinists from Dahouk city, Iraqi Kurdistan."
+          name: "Stephen Dombrowski",
+          src: "https://www.youtube.com/embed/iUXXYV3hsLY"
         },
         {
           id: 10,
-          img: Dennis,
-          name: "Dennis Reifsteck",
-          description: "Accomplished musician celebrating 40 years as bandleader of The Swing Crew."
+          name: "Jeremy Chapman",
+          src: "https://www.youtube.com/embed/saIoMjZzcGE"
         },
         {
           id: 11,
-          img: Bertie,
-          name: "Bertie Canepa Reifsteck ",
-          description: "Accomplished musician celebrating 40 years as bandleader of The Swing Crew."
+          name: "Alfazz - Sharif Khlief",
+          src: "https://www.youtube.com/embed/DyiFk7azrhg"
         },
         {
           id: 12,
-          img: Daniel,
-          name: "Daniel Zappi",
-          description: "Anglo-italian educator and performing artist."
-        },
-        {
-          id: 13,
-          img: Alfazz,
-          name: "Alfazz - Sharif Khlief",
-          description: "Middle east music, Jazz, Music full of feelings."
-        },
-        {
-          id: 14,
-          img: Organism,
-          name: "Organism - Daniel Bulatkin",
-          description: "Daniel Bulatkin is a new face on the Czech jazz scene."
-        },
-        {
-          id: 15,
-          img: Jeremy,
-          name: "Jeremy Chapman",
-          description: "Flute soloist grew up in Lebanon where he returned in his 20s to teach and play music."
-        },
-        {
-          id: 16,
-          img: TheSwingCrew,
-          name: "The Swing Crew",
-          description: "Fun is the bottom line with this interactive, acoustic band."
+          name: "Ben Redwine",
+          src: "https://www.youtube.com/embed/nIMdQdCLY0c"
         }
       ]
     }
@@ -124,16 +73,16 @@ class VideosCardGroup extends React.Component {
   render () {
     let videosCards = this.state.videos.map(videos => {
       return (
-        <Col sm="6" md="4" lg="3">
-          <VideosCard key={videos.id} videos={videos} />
+        <Col lg="6" style={{ padding: '5px' }} key={videos.id}>
+          <VideosCard videos={videos} />
         </Col>
       )
     })
     return (
       <div className="bg-color">
       <Container>
-        <h1 className='section-headline text-center' id="artists-section-headline">Videos</h1>
-        <Row noGutters className='pb-5'>
+        <h1 className='section-headline text-center py-3'>Videos</h1>
+        <Row noGutters>
           {videosCards}
         </Row>
       </Container>

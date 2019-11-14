@@ -9,7 +9,7 @@ import Img6 from './images/6.png'
 
 const AboutUsCarousel = () => {
   return (
-    <div className="bg-color">
+    <div className="section-a">
       <Container>
         <Carousel>
           <Carousel.Item>

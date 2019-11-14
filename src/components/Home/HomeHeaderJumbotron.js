@@ -9,7 +9,7 @@ const plugins = [ CSSPlugin, AttrPlugin ];
 const HomeHeaderJumbotron = () => {
 
   let  bgOpeningEffect = useRef(null)
-  let  borderEffect = useRef(null)
+  let  headerEffect = useRef(null)
   let  fadeInEffect = useRef(null)
   let  setHeightAuto = useRef(null)
 
@@ -17,7 +17,7 @@ const HomeHeaderJumbotron = () => {
     const tl = new TimelineMax();
     tl.fromTo(bgOpeningEffect, 3, {height:"10%"}, {height:"90%"})
     .set(setHeightAuto, {height:'auto'})
-    .fromTo(borderEffect, 2, {
+    .fromTo(headerEffect, 2, {
       opacity: 0,
       height:"0%",
       padding: '0px'
@@ -31,19 +31,17 @@ const HomeHeaderJumbotron = () => {
 
   return (
         <div className="header" ref={div => setHeightAuto = div}>
-        <div className="bg" ref={div => bgOpeningEffect = div}>
-          <Jumbotron>
-
-              <h1 className="headline">CULTURAL CONCERTS</h1>
-              <div className="description-box">
-                <div className="description-box-border" ref={div => borderEffect = div}>
-                  <h2 className="subheadline" ref={div => fadeInEffect = div}><span className="p">P</span>rague <span className="m">M</span>ulticultural <br/> <span className="m">M</span>usic <span className="p">P</span>roject</h2>
-                  <Button variant="danger" >June 24 - July 2, 2020​</Button>
-                </div> {/* End Of .description-box-border */}
-              </div> {/* End Of .description-box */}
-
-          </Jumbotron>
-          </div>
+          <div className="bg-img" ref={div => bgOpeningEffect = div}>
+            <Jumbotron>
+                <h1 className="headline">CULTURAL CONCERTS</h1>
+                <div className="home-header-box">
+                  <div ref={div => headerEffect = div}>
+                    <h2 className="subheadline" ref={div => fadeInEffect = div}><span className="pmmp">P</span>rague <span className="pmmp">M</span>ulticultural <br/> <span className="pmmp">M</span>usic <span className="pmmp">P</span>roject</h2>
+                    <Button variant="danger" >June 24 - July 2, 2020​</Button>
+                  </div> {/* End Of headerEffect */}
+                </div> {/* End Of .home-header-box */}
+            </Jumbotron>
+          </div> {/* End Of .bg-img */}
         </div>
   )
 }

@@ -21,7 +21,7 @@ function Images() {
 
   return (
     <Container>
-      <h1 className='section-headline text-center' id="artists-section-headline">Images</h1>
+      <h1 className='section-headline text-center py-3'>Images</h1>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
